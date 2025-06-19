@@ -1,4 +1,4 @@
-# 🧬 Parameter-Weighted Score (PWS): A Bacterial Microbiome Correlation Tool
+## 🧬 Parameter-Weighted Score (PWS): A Bacterial Microbiome Correlation Tool
 A comprehensive bioinformatics tool for analyzing correlations between bacterial species abundance and external parameters (productivity, environmental factors, etc.) with advanced statistical testing and visualization capabilities.
 🎯 Overview
 This tool implements a Parameter-Weighted Score (PWS) methodology to identify bacterial species that significantly correlate with external parameters across multiple experimental conditions. It features:
@@ -16,7 +16,7 @@ o	Student's t-test (normal data, equal variances)
 o	Welch's t-test (normal data, unequal variances)
 o	Mann-Whitney U (non-parametric alternative)
 •	Dual filtering approach for maximum transparency
-Analysis Workflow
+## Analysis Workflow
 1.	Parameter-weighted correlation analysis with abundance data
 2.	Multi-level statistical testing (global + group-specific)
 3.	Significance-based filtering with abundance thresholds
