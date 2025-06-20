@@ -24,11 +24,14 @@ o	Mann-Whitney U (non-parametric alternative)
 3.	**Significance-based filtering** with abundance thresholds
 4.	**Comparative visualization** between analysis approaches
 5.	**Comprehensive reporting** with statistical details
-**Output Classification** \
+**Output Classification** 
 
 •	🔴 **Red:** Globally significant (p < 0.05)
+
 •	🟠 **Orange:** Multiple groups significant
+
 •	🟡 **Yellow:** Single group significant
+
 •	⚪ **Gray:** Not significant
 ## 📋 Requirements
 **Dependencies**
