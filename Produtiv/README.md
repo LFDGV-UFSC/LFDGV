@@ -5,14 +5,10 @@ A comprehensive bioinformatics tool for analyzing correlations between bacterial
 ## 🎯 Overview
 This tool implements a **Parameter-Weighted Score (PWS)** methodology to identify bacterial species that significantly correlate with external parameters across multiple experimental conditions. It features:
 
-•	**Flexible parameter correlation analysis** (productivity, pH, temperature, etc.)
-
-•	**Advanced statistical testing** with automatic test selection.
-
-•	**Dual analysis approach:** individual optimized tests vs. conservative standardized tests
-
-•	**Professional visualization** with significance pattern classification.
-
+•	**Flexible parameter correlation analysis** (productivity, pH, temperature, etc.)   
+•	**Advanced statistical testing** with automatic test selection.   
+•	**Dual analysis approach:** individual optimized tests vs. conservative standardized tests   
+•	**Professional visualization** with significance pattern classification.   
 •	**Automated pipeline** for complete analysis workflow.
 ## 🔬 Key Features
 **Statistical Rigor**
