@@ -5,55 +5,51 @@ A comprehensive bioinformatics tool for analyzing correlations between bacterial
 ## 🎯 Overview
 This tool implements a **Parameter-Weighted Score (PWS)** methodology to identify bacterial species that significantly correlate with external parameters across multiple experimental conditions. It features:
 
-•	**Flexible parameter correlation analysis** (productivity, pH, temperature, etc.)   
-•	**Advanced statistical testing** with automatic test selection.   
-•	**Dual analysis approach:** individual optimized tests vs. conservative standardized tests   
-•	**Professional visualization** with significance pattern classification.   
-•	**Automated pipeline** for complete analysis workflow.
+•	**Flexible parameter correlation analysis** (productivity, pH, temperature, etc.)      
+•	**Advanced statistical testing** with automatic test selection.     
+•	**Dual analysis approach:** individual optimized tests vs. conservative standardized tests     
+•	**Professional visualization** with significance pattern classification.      
+•	**Automated pipeline** for complete analysis workflow.  
 ## 🔬 Key Features
-**Statistical Rigor**
-•	**Normality testing** (Shapiro-Wilk) for appropriate test selection
-•	**Variance homogeneity** testing (Levene) for parametric test validation
-•	**Automatic test selection:** 
-o	Student's t-test (normal data, equal variances)         
-o	Welch's t-test (normal data, unequal variances)  
-o	Mann-Whitney U (non-parametric alternative)   
-•	**Dual filtering approach** for maximum transparency
-**Analysis Workflow**
-1.	**Parameter-weighted correlation** analysis with abundance data
-2.	**Multi-level statistical testing** (global + group-specific)
-3.	**Significance-based filtering** with abundance thresholds
-4.	**Comparative visualization** between analysis approaches
-5.	**Comprehensive reporting** with statistical details
-**Output Classification** 
-
+**Statistical Rigor**  
+•	**Normality testing** (Shapiro-Wilk) for appropriate test selection    
+•	**Variance homogeneity** testing (Levene) for parametric test validation      
+•	**Automatic test selection:**   
+o	Student's t-test (normal data, equal variances)           
+o	Welch's t-test (normal data, unequal variances)    
+o	Mann-Whitney U (non-parametric alternative)     
+•	**Dual filtering approach** for maximum transparency  
+**Analysis Workflow**  
+1.	**Parameter-weighted correlation** analysis with abundance data  
+2.	**Multi-level statistical testing** (global + group-specific)  
+3.	**Significance-based filtering** with abundance thresholds  
+4.	**Comparative visualization** between analysis approaches  
+5.	**Comprehensive reporting** with statistical details  
+**Output Classification**   
 •	🔴 **Red:** Globally significant (p < 0.05)
-
-•	🟠 **Orange:** Multiple groups significant
-
-•	🟡 **Yellow:** Single group significant
-
-•	⚪ **Gray:** Not significant
-## 📋 Requirements
-**Dependencies**
-pandas >= 1.3.0
-numpy >= 1.21.0
-scipy >= 1.7.0
-matplotlib >= 3.4.0
-**System Requirements**
-•	Python 3.8 or higher
-•	4GB+ RAM (for large datasets)
-•	Unix/Linux/macOS/Windows
-## 🚀 Installation
-**Option 1:** Clone Repository
-git clone https://github.com/yourusername/bacterial-pws-analysis.git
-cd bacterial-pws-analysis
-pip install -r requirements.txt
-**Option 2:** Direct Download
-wget https://github.com/yourusername/bacterial-pws-analysis/archive/main.zip
-unzip main.zip
-cd bacterial-pws-analysis-main
-pip install pandas numpy scipy matplotlib
+•	🟠 **Orange:** Multiple groups significant  
+•	🟡 **Yellow:** Single group significant   
+•	⚪ **Gray:** Not significant   
+## 📋 Requirements  
+**Dependencies**  
+pandas >= 1.3.0  
+numpy >= 1.21.0  
+scipy >= 1.7.0  
+matplotlib >= 3.4.0  
+**System Requirements**  
+•	Python 3.8 or higher  
+•	4GB+ RAM (for large datasets)  
+•	Unix/Linux/macOS/Windows   
+## 🚀 Installation   
+**Option 1:** Clone Repository   
+git clone https://github.com/yourusername/bacterial-pws-analysis.git  
+cd bacterial-pws-analysis  
+pip install -r requirements.txt  
+**Option 2:** Direct Download  
+wget https://github.com/yourusername/bacterial-pws-analysis/archive/main.zip  
+unzip main.zip  
+cd bacterial-pws-analysis-main  
+pip install pandas numpy scipy matplotlib  
 ## 📁 Input Data Structure
 **1.	Abundance Data** (abundance_data.csv)
 2.	Bacterial abundance matrix with taxonomic classification:
