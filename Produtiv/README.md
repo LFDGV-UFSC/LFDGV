@@ -134,9 +134,7 @@ Species included if they meet **both** conditions:
 •	**Replicates:** 3 biological replicates per condition  
 **Expected Results**  
 Top Contributing Species:  
-1. Flavobacterium buctense (PWS: +5.15, Global significance)  
-2. Chryseolinea serpens (PWS: +2.94, Multiple farms)  
-3. Clostridium fimetarium (PWS: -1.23, Single farm)  
+PWS: + and -; Global significance, Multiple groups, Single group or Not Significant.  
 ## 🔍 Advanced Features  
 **Dual Analysis Approach**  
 **1.	Individual Tests:** Optimal statistical test for each species   
@@ -170,21 +168,15 @@ bibtex
   url = {https://github.com/yourusername/bacterial-pws-analysis},  
   year = {2025}  
 }  
-## 📝 License  
-This project is licensed under the MIT License - see the LICENSE file for details.  
 ## 🆘 Support  
 **Common Issues**  
 •	**Memory errors:** Reduce dataset size or increase system RAM  
 •	**Statistical warnings:** Check for low abundance species (< 0.1%)  
 •	**Plotting errors:** Ensure parameter name contains no special characters  
-## Getting Help  
-•	📧 **Email:** your.email@institution.edu  
-•	🐛 **Issues:** GitHub Issues  
-•	💬 **Discussions:** GitHub Discussions  
 ## 🏆 Acknowledgments  
 •	Statistical methodology inspired by ecological correlation analysis  
 •	Visualization design following microbiome analysis best practices  
-•	Testing framework adapted from clinical biostatistics protocols  
+•	Testing framework adapted from biostatistics protocols  
 
 ## 🧬 Advancing Microbiome Research Through Rigorous Statistical Analysis 🧬  
 **⭐ Star this repo if it helped your research!**  
